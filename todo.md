@@ -1,5 +1,7 @@
 # Topics that would be good to explore:
 
+Please make certain any information you contribute you have the rights to, ie, dont copy paste other's info, dont steal images/guides, etc etc. If you arent sure, ask.
+
 - What is kigu, setting grounded expectations
   - what is kigu
     - kigu is not a fetish thing, however
@@ -64,7 +66,7 @@
   - eyes in general
   - printing yourself vs paying for printing 
   - open source resources
-    - any info users would like to commision
+    - any details users would like to contribute
   - Refurbishment ideas
 - Buying used
   - Big questions to ask
