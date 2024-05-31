@@ -29,9 +29,9 @@ tldr: inactivity and out of date info on various kigurumi resources, biases on m
 - To be added: Accountless method for sending any suggested updates via rentry.co which similarly uses markdown formatting, for those who wish not to bother with github
 
 # Working list of things to be done:
-- lolcontent
+- [lolcontent](https://github.com/kamen-kigu/kigwiki/tree/master/docs)
 - [new logo that isnt awful](https://github.com/kamen-kigu/kigwiki/blob/master/static/img/kigwiki.png)
-- contribution guides and guidelines
+- [contribution guides and guidelines](https://github.com/kamen-kigu/kigwiki/tree/master/contribution_guidelines)
 - contributor based governance to allow changes to be agreed upon without requiring or being based off any one person's approval
 
 # Technial tldr:
