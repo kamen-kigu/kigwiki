@@ -1,8 +1,6 @@
-import { themes as prismThemes } from 'prism-react-renderer';
-import type { Config } from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+const { themes: prismThemes } = require('prism-react-renderer');
 
-const config: Config = {
+const config = {
   title: 'kig.wiki',
   tagline: 'Because kigu is too precious for any one person\'s opinions',
   favicon: 'img/favicon.ico',
@@ -28,16 +26,16 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/kamen-kigu/kigwiki/blob/master/',
         },
         blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
-      } satisfies Preset.Options,
+      },
     ],
   ],
 
@@ -96,7 +94,64 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-  } satisfies Preset.ThemeConfig,
+    headTags: [
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'apple-touch-icon',
+          sizes: '180x180',
+          href: '/img/apple-touch-icon.png',
+        },
+      },
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '32x32',
+          href: '/img/favicon-32x32.png',
+        },
+      },
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '16x16',
+          href: '/img/favicon-16x16.png',
+        },
+      },
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'manifest',
+          href: '/site.webmanifest',
+        },
+      },
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'mask-icon',
+          href: '/img/safari-pinned-tab.svg',
+          color: '#5bbad5',
+        },
+      },
+      {
+        tagName: 'meta',
+        attributes: {
+          name: 'msapplication-TileColor',
+          content: '#2b5797',
+        },
+      },
+      {
+        tagName: 'meta',
+        attributes: {
+          name: 'theme-color',
+          content: '#ffffff',
+        },
+      },
+    ],
+  },
 
   plugins: [
     [
@@ -108,4 +163,4 @@ const config: Config = {
   ],
 };
 
-export default config;
+module.exports = config;
