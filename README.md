@@ -26,7 +26,7 @@ tldr: inactivity and out of date info on various kigurumi resources, biases on m
 # How to contribute
 
 Tldr: Write markdown files in (docs/), add images to (public/img/)
-[See contributing guidelines](docs/contributing) or the same file [in this repo ](docs/contributing.md)
+[See contributing guidelines](https://kig.wiki/docs/contributing) or the same file [in this repo ](docs/contributing.md)
 
 # Working list of things to be done:
 - [lolcontent to be added in markdown](docs/)
