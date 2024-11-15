@@ -13,7 +13,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'kamen-kigu', // username for deployed site and repo.
+  organizationName: 'kig-wiki', // username for deployed site and repo.
   projectName: 'kigwiki',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -29,7 +29,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/kamen-kigu/kigwiki/blob/master/',
+          editUrl: 'https://github.com/kig-wiki/kigwiki/blob/master/',
         },
         blog: false,
         theme: {
@@ -74,7 +74,7 @@ const config = {
           items: [
             {
               label: 'Github',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://github.com/kig-wiki/kigwiki',
             },
           ],
         },
