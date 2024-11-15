@@ -2,7 +2,7 @@ const { themes: prismThemes } = require('prism-react-renderer');
 
 const config = {
   title: 'kig.wiki',
-  tagline: 'Because kigu is too precious for any one person\'s opinions',
+  tagline: 'Very WIP, please wait warmly',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -27,8 +27,6 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/kig-wiki/kigwiki/blob/master/',
         },
         blog: false,
@@ -64,13 +62,13 @@ const config = {
           title: 'Docs',
           items: [
             {
-              label: 'Home',
-              to: '/docs/home',
+              label: 'Get Started',
+              to: '/docs/Get Started',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Other Links',
           items: [
             {
               label: 'Github',
@@ -157,7 +155,7 @@ const config = {
     [
       require.resolve('docusaurus-lunr-search'),
       {
-        languages: ['en', 'ja'], // Specify the languages you need
+        languages: ['en', 'ja'],
       },
     ],
   ],
