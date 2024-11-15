@@ -14,7 +14,7 @@ Bishoujo Kigurumi, Kigurumi (着ぐるみ), or Kig/Kigu for even shorter is a ma
 # What this is *not* meant to be
 
 - A community
-- Any one individual's soapbox 
+- Any one individual's soapbox, the more contributors there are the further we can strive towards this
 - An advertising spot for makers, merchants, etc
 - A copy/paste of other kigurumi resources
 
@@ -22,18 +22,18 @@ Bishoujo Kigurumi, Kigurumi (着ぐるみ), or Kig/Kigu for even shorter is a ma
 
 tldr: inactivity and out of date info on various kigurumi resources, biases on many of said resources, or otherwise painting of various matters as black and white. Kigurumi is a bespoke hobby made by artesians both commercial and DIY, it is not a mass produced factory good, quality is not such a binary matter. Much like you would consider certain artists for certain art commisions based on their unique style, there is nuance to why you may want to go with one maker or the other as per the vision you have of your kigurumi. There rarely are perfect answers, only informed or uninformed decisions. 
 
-# Three ways how to contribute
 
-- Open a github issue and describe the changes you feel can benefit this resource
-- Bonus points if you instead make a fork, create the changes, and create yourself a PR asking to merge the changes and why
-- To be added: Accountless method for sending any suggested updates via rentry.co which similarly uses markdown formatting, for those who wish not to bother with github
+# How to contribute
+
+Tldr: Write markdown files in (docs/), add images to (public/img/)
+[See contributing guidelines](docs/contributing) or the same file [in this repo ](docs/contributing.md)
 
 # Working list of things to be done:
-- [lolcontent to be added in markdown](https://github.com/kamen-kigu/kigwiki/tree/master/docs)
-  - [See content ideas todo](https://github.com/kamen-kigu/kigwiki/todo.md)
-- [new logo that isnt awful](https://github.com/kamen-kigu/kigwiki/blob/master/static/img/kigwiki.png)
-- [contribution guides and guidelines](https://github.com/kamen-kigu/kigwiki/tree/master/contribution_guidelines)
-- contributor based governance to allow changes to be agreed upon without requiring or being based off any one person's approval
+- [lolcontent to be added in markdown](docs/)
+  - [See content ideas todo](todo.md)
+- new logo that isnt awful
+- better tutorials
+- rename 'master' branch, any good ideas? handler branch??
 
 # Technial tldr:
 

@@ -2,7 +2,7 @@ const { themes: prismThemes } = require('prism-react-renderer');
 
 const config = {
   title: 'kig.wiki',
-  tagline: 'Because kigu is too precious for any one person\'s opinions',
+  tagline: 'Very WIP, please wait warmly',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -13,12 +13,12 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'kamen-kigu', // username for deployed site and repo.
+  organizationName: 'kig-wiki', // username for deployed site and repo.
   projectName: 'kigwiki',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   presets: [
@@ -27,9 +27,7 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/kamen-kigu/kigwiki/blob/master/',
+          editUrl: 'https://github.com/kig-wiki/kigwiki/blob/master/',
         },
         blog: false,
         theme: {
@@ -64,17 +62,17 @@ const config = {
           title: 'Docs',
           items: [
             {
-              label: 'Home',
-              to: '/docs/home',
+              label: 'Get Started',
+              to: '/docs/get-started',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Other Links',
           items: [
             {
               label: 'Github',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://github.com/kig-wiki/kigwiki',
             },
           ],
         },
@@ -157,7 +155,7 @@ const config = {
     [
       require.resolve('docusaurus-lunr-search'),
       {
-        languages: ['en', 'ja'], // Specify the languages you need
+        languages: ['en', 'ja'],
       },
     ],
   ],
