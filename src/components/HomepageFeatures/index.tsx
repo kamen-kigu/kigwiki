@@ -18,7 +18,7 @@ const FeatureList: FeatureItem[] = [
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed aliquam erat, in semper neque. Vestibulum suscipit tempus rhoncus. Aliquam in eleifend neque, viverra maximus nunc.
       </>
     ),
-    link: '/docs/Get%20Started',
+    link: '/docs/get-started',
   },
   {
     title: 'Something else about getting started',
@@ -28,7 +28,7 @@ const FeatureList: FeatureItem[] = [
         Proin ut sem venenatis, vestibulum lacus nec, euismod libero. Pellentesque id ex eget libero facilisis malesuada.
       </>
     ),
-    link: '/docs/Get%20Started',
+    link: '/docs/get-started',
   },
   {
     title: 'What about a third topic to showcase?',
@@ -38,7 +38,7 @@ const FeatureList: FeatureItem[] = [
         Duis rutrum fringilla ante. Vestibulum consectetur faucibus vestibulum.
       </>
     ),
-    link: '/docs/Get%20Started',
+    link: '/docs/get-started',
   },
 ];
 
